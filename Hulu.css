@@ -1,0 +1,1012 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+
+    height: auto;
+    width: 100%;
+}
+
+.section-1 {
+
+
+    height: 60vh;
+    width: 100%;
+    background-image: url(./Assets/Background-img.jpeg);
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 5px black;
+
+}
+
+.navbar {
+
+    height: 10dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2.5rem;
+    font-size: 20px;
+    font-family: "Funnel Sans", sans-serif;
+    background-color: rgba(0, 0, 0, 0.345);
+
+    h2 {
+
+        color: #1CE783;
+    }
+
+    button {
+        padding: 10px 15px;
+        background-color: transparent;
+        border-radius: 5px;
+        border: 0;
+
+        a {
+
+            color: #A8AFBD;
+            font-size: 15px;
+            font-weight: bolder;
+            text-decoration: none;
+
+        }
+    }
+}
+
+.navbar button:hover {
+
+    background-color: #3238439e;
+
+    a {
+        color: white;
+    }
+
+}
+
+.logos {
+
+    height: 50dvh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.345);
+    font-family: "Funnel Sans", sans-serif;
+    display: flex;
+    flex-shrink: 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.disney-hulu {
+
+    height: 23vh;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+
+    h3 {
+
+        font-size: 14px;
+        color: #1CE783;
+        padding-bottom: 9px;
+
+    }
+
+    button {
+
+        padding: 16px 90px;
+        border-radius: 5px;
+        background-color: #1CE783;
+        font-weight: bold;
+        font-family: "Funnel Sans", sans-serif;
+        font-size: 16px;
+        border: 0;
+
+    }
+
+    button:hover {
+        background-color: #1ce781c4;
+
+
+    }
+
+    h1 {
+        padding-bottom: 10px;
+
+
+    }
+
+    a {
+
+        padding-top: 10px;
+        color: white;
+        font-size: 13px;
+    }
+
+
+}
+
+.disney-hulu-HBO {
+    height: 23vh;
+    width: 23%;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+
+
+    h3 {
+
+        font-size: 14px;
+        color: #1CE783;
+        padding-bottom: 2px;
+
+
+    }
+
+    button {
+
+        padding: 16px 110px;
+        border-radius: 5px;
+        background-color: #1CE783;
+        font-weight: bold;
+        font-family: "Funnel Sans", sans-serif;
+        font-size: 1rem;
+        border: 0;
+    }
+
+    button:hover {
+        background-color: #1ce781c4;
+
+
+    }
+
+
+    h1 {
+        padding-bottom: 10px;
+
+
+    }
+
+    a {
+
+        padding-top: 10px;
+        color: white;
+        font-size: 13px;
+    }
+}
+
+.Espn-div {
+    height: 17vh;
+    width: 100%;
+    background-image: linear-gradient(318.68deg, rgb(15, 73, 92), rgb(13, 54, 64) 49.72%, rgb(8, 20, 31));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.espn-logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.disney-hulu-espn {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    padding: 10px 30px;
+
+    h5 {
+        color: #1CE783;
+        padding-bottom: 5px;
+        font-size: 13px;
+        font-family: "Funnel Sans", sans-serif;
+
+    }
+
+    h2 {
+
+        color: white;
+        /* font-size: 15px; */
+        font-family: "Funnel Sans", sans-serif;
+        font-weight: 500;
+
+
+    }
+
+    a {
+
+        color: #AEB9BC;
+        font-family: "Funnel Sans", sans-serif;
+        padding-top: 5px;
+    }
+
+}
+
+.get-button {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
+
+    button {
+        padding: 17px 30px;
+        border-radius: 10px;
+        background-color: #1CE783;
+        color: black;
+        font-family: "Funnel Sans", sans-serif;
+        font-weight: bold;
+        border: black;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #1ce781c4;
+    }
+
+
+    a {
+        color: #B7C8CD;
+        font-size: 12px;
+        padding-top: 5px;
+
+    }
+
+}
+
+.section-2 {
+
+    height: 160vh;
+    width: 100%;
+    background-color: #0B0C0F;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.TV-you-love {
+
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Funnel Sans", sans-serif;
+
+    h5 {
+        color: #1CE783;
+        font-size: 15px;
+        padding-bottom: 10px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    h3 {
+
+        font-weight: 300;
+        text-align: center;
+
+    }
+}
+
+.grid-cards {
+
+    height: 57vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 450px 450px 450px 450px;
+    gap: 30px;
+    padding: 10px 70px;
+    
+
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.458);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: outline 0.3s ease;
+    padding: 25px;
+    font-family: "Funnel Sans", sans-serif;
+
+
+    h2{
+        color: white;
+        font-size: 20px;
+        margin: 0 0 5px;
+        font-weight: 500;
+    }
+    h1{
+        color: white;
+        font-size: 25px;
+        
+    }
+
+
+}
+.card:hover {
+    outline: 5px solid #9D9E9F;
+   outline-offset: 5px;
+    background-color: rgba(0, 0, 0, 0.682);
+}
+
+.card-1 {
+    background-image: url(./Assets/Family-guy.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 1px 2px black;
+
+}
+
+.card-2 {
+    background-image: url(./Assets/Planet\ of\ apes.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 1px 2px black;
+}
+
+.card-3 {
+    background-image: url(./Assets/Shogan.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 1px 2px black;
+}
+
+.card-4 {
+    background-image: url(./Assets/House-Of-Dragons.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 1px 2px black;
+}
+
+.small-line {
+    height: 5vh;
+    width: 100%;
+    font-size: 11px;
+    color: #9D9E9F;
+    text-align: right;
+    font-family: "Funnel Sans", sans-serif;
+    padding: 0px 95px;
+    font-weight: 100;
+}
+
+.watch-live {
+
+    height: 60vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Funnel Sans", sans-serif;
+
+    h5 {
+        color: #1CE783;
+        font-size: 15px;
+        padding-bottom: 10px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    h3 {
+
+        font-weight: 300;
+        text-align: center;
+
+    }
+
+    button {
+        padding: 15px 25px;
+        border-radius: 5px;
+        background-color: #1CE783;
+        color: black;
+        font-family: "Funnel Sans", sans-serif;
+        font-weight: bold;
+        border: black;
+        font-size: 16px;
+        margin-top: 25px;
+
+    }
+
+    button:hover {
+        background-color: #1ce781c4;
+    }
+
+
+    p {
+        font-size: 11px;
+        color: #AEB9BC;
+        text-align: center;
+        font-family: "Funnel Sans", sans-serif;
+        padding: 10px;
+        font-weight: 100;
+    }
+
+    a {
+        color: #CECECF;
+        font-size: 17px;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 20px;
+
+    }
+
+
+}
+
+.section-3 {
+
+    height: 95vh;
+    padding-top: px;
+    background-image: url(./Assets/TV-Background-2560.jpeg);
+    background-size: cover;
+
+}
+
+.live-sports {
+
+    height: 45vh;
+    width: 50%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 270px;
+    padding-top: 350px;
+    color: white;
+    font-family: "Funnel Sans", sans-serif;
+
+
+    h1 {
+
+        font-size: 50px;
+        margin-bottom: 12px;
+
+    }
+
+    p {
+
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    p2 {
+
+        font-size: 11px;
+        color: #9D9E9F;
+        text-align: left;
+        font-family: "Funnel Sans", sans-serif;
+        font-weight: bold;
+
+        a {
+            color: #9D9E9F;
+        }
+    }
+}
+
+.bar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 13px;
+
+}
+
+.bar h3:hover {
+
+    color: rgba(255, 255, 255, 0.71);
+}
+
+#line {
+
+    width: 16%;
+    border: 2.5px solid white;
+    background-color: white;
+
+
+}
+
+.mini-logos {
+
+    height: 10vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.circle {
+
+    margin-top: 15px;
+    height: 7vh;
+    width: 15%;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 {
+
+    height: 50vh;
+    width: 100%;
+    background-color: #0B0C0F;
+    color: white;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Funnel Sans", sans-serif;
+
+}
+
+.select-your-plan {
+
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    h1 {
+        font-size: 50px;
+        margin-bottom: 12px;
+    }
+
+    h3 {
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    h2 {
+        font: size 18px;
+        margin-bottom: 15px;
+    }
+
+    select {
+
+        padding: 10px 13px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        text-decoration: none;
+        font-weight: bold;
+
+        option {
+
+            text-align: center;
+
+        }
+
+    }
+}
+
+.table-icons {
+    height: 20vh;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icon {
+    height: 100%;
+    width: 32%;
+    padding-left: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+
+        margin-bottom: 10px;
+
+    }
+
+    h1 {
+        font-size: 13px;
+        color: white;
+        padding-bottom: 10px;
+
+
+    }
+
+    button {
+        padding: 10px 90px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #CECECF;
+    }
+
+    button:hover {
+        background-color: #d4d4d7e6;
+
+
+    }
+
+
+
+    h2 {
+        font-size: 11px;
+    }
+
+
+}
+
+.icon-2 {
+    height: 100%;
+    width: 32%;
+    padding-right: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+
+        margin-bottom: 10px;
+
+    }
+
+    h1 {
+        font-size: 13px;
+        color: white;
+        padding-bottom: 10px;
+
+
+    }
+
+    button {
+        padding: 10px 90px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #CECECF;
+
+    }
+
+    button:hover {
+        background-color: #d4d4d7e6;
+
+
+    }
+
+
+    h2 {
+        font-size: 11px;
+    }
+
+
+}
+
+.section-5 {
+
+    height: 120vh;
+    width: 100%;
+    background-color: #0B0C0F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+table {
+    color: rgb(255, 255, 255);
+    height: 110vh;
+    width: 65%;
+    font-family: "Funnel Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: left;
+    border-top: 1px solid #9D9E9F;
+    border-bottom: 1px solid #9D9E9F;
+    border-collapse: collapse;
+
+    tr {
+        border-top: 1px solid #9D9E9F;
+        border-bottom: 1px solid #9D9E9F;
+    }
+
+}
+
+#tr-1 {
+    height: 7vh;
+
+    span {
+        font-size: 12px;
+        text-decoration: line-through;
+        color: rgba(195, 195, 195, 0.589);
+    }
+
+}
+
+#th-1 {
+    width: 25%;
+    text-align: left;
+    border-collapse: collapse;
+    height: 6vh;
+    font-weight: 100;
+    padding: 15px 0px;
+
+    img {
+        vertical-align: middle;
+    }
+
+}
+
+#th-2 {
+    width: 20%;
+    text-align: center;
+    border-collapse: collapse;
+    height: 6vh;
+    font-weight: 100;
+    padding: 15px 0px;
+
+}
+
+#th-3 {
+    width: 20%;
+    text-align: center;
+    border-collapse: collapse;
+    height: 6vh;
+    font-weight: 100;
+    padding: 15px 0px;
+
+}
+
+#tr-12 {
+    font-size: 11px;
+    height: 15vh;
+
+    a {
+        color: rgb(255, 255, 255);
+    }
+}
+
+#tr-13 {
+    font-size: 18px;
+    height: 7vh;
+}
+
+
+.section-6 {
+    height: 65vh;
+    width: 100%;
+    background-color: #E8EAED;
+    font-family: "Funnel Sans", sans-serif;
+    padding: 0px 140px;
+    color: #586174;
+
+
+}
+
+.links {
+
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.links-column1 {
+
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+.links-column2 {
+
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.box-2 {
+
+    height: 75%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    a {
+        padding-bottom: 5px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #586174;
+    }
+
+    p {
+        font-size: 13px;
+        color: #272c34;
+        ;
+        padding-bottom: 7px;
+        font-weight: bold;
+
+    }
+
+}
+
+.browse {
+
+    height: 20%;
+    width: 90%;
+    display: flex;
+    align-items: self-end;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #272c34;
+    ;
+
+}
+
+.box {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+
+}
+
+.link-box {
+
+    height: 100%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+
+    a {
+        padding-bottom: 5px;
+        text-decoration: none;
+        color: #586174;
+    }
+}
+
+.socials {
+    height: 3vh;
+    width: 14%;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+
+    height: 80%;
+    width: 13%;
+
+}
+
+.footer-links-row {
+
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-size: 12px;
+
+    a {
+        color: #586174;
+        text-decoration: none;
+
+        img {
+            vertical-align: top;
+        }
+    }
+}
+
+.footer-links-row-2 {
+
+    height: 3vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 12px;
+
+    a {
+        color: #586174;
+        text-decoration: none;
+        padding-right: 50px;
+    }
+
+}
+
+/* @media (min-width:320px) and (max-width:426){
+
+  .grid-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 450px 450px;
+    gap: 30px;
+    padding: 10px 70px;
+  }
+} */
